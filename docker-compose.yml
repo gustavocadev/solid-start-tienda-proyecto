@@ -1,0 +1,7 @@
+services:
+  pocketbase:
+    image: pocket-tienda
+    ports:
+      - 8080:8090
+    volumes:
+      - ./pocketbase/pocketbase_data:/pb_data
